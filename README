@@ -1,3 +1,14 @@
+Tarefa de Programação
+=====================
+
+Tarefa desenvolvida por Gabriel Reis e Matheus Sauthier
+
+Permite enviar pacotes e criar uma conexão IPv6 apenas com `./nc 2001:4860:4860::8888 80`.
+
+No modo de escuta IPv6 `./nc -l -6 -v -p 30300` trás informações extras a respeito
+da conexão IPv6, retornando o HopLimit, MTU e RecvtClass.
+
+
 Netcat 1.10 (community-edition)
 ===============================                                    /\_/\
                                                                   / 0 0 \
